@@ -19,7 +19,7 @@ let guessno=document.querySelector(".guessno")
             result.style.webkitTextStroke = "1px  rgb(41, 161, 17)"
             result.style.fontSize = "bold"
             totalscore=totalscore+1;
-            score.textContent="Score :"+totalscore;
+            score.textContent="Score: "+totalscore;
             alert("YOU WIN!");
             
         }else if (randnum <= 0 && enternum === !1) {
@@ -40,7 +40,7 @@ let guessno=document.querySelector(".guessno")
             result.style.webkitTextStroke = "1px rgb(160, 20, 20)"
             result.style.fontSize = "bold"
             totalscore=totalscore-1;
-            score.textContent="Score :"+totalscore;
+            score.textContent="Score: "+totalscore;
         }
         
     }

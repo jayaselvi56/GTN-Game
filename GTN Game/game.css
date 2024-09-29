@@ -45,17 +45,41 @@ input::-webkit-inner-spin-button{
     padding: 10px;
     font-weight: bold;
 }
+
 .result{
-    color: rgb(18, 75, 65);
+    color: rgb(11, 70, 59);
     font-size: 15px;
 }
 .score{
-    color: rgb(62, 24, 197);
+    color: rgb(41, 62, 252);
     font-weight: bold;
 }
 
-@media (max-width:600px){
+@media (min-width:300px) and (max-width:700px){
+    h1{
+        font-size: 24px;
+    }
+    .guessno{
+        width: 50%;
+    }
     .overlay{
-        width: 400px;
+        width:50%;
+    }
+    .check-btn{
+        margin-top: 15px;
+    }
+}
+@media (min-width:700px) and (max-width:1330px){
+    h1{
+        font-size: x-large;
+    }
+    .guessno{
+        width: 50%;
+    }
+    .overlay{
+        width:40%;
+    }
+    .check-btn{
+        margin-top: 15px;
     }
 }
